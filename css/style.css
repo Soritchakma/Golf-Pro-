@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,700;1,500;1,600;1,700&family=Merriweather+Sans:ital,wght@0,600;0,700;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,600;0,700;0,800;1,700;1,800&family=Outfit:wght@700;800;900&family=Proza+Libre:ital,wght@0,500;0,600;1,400;1,500&display=swap');
+
+header {
+    background-color: #7BA010;
+}
+
+.brand-font {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Proza Libre', sans-serif;
+
+}
+
+.item-active-font {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 16px;
+
+
+}
+
+#Banner-main {
+    width: 100%;
+    height: 80vh;
+
+}
+
+.Banner-container {
+    background-image: url(../image/b1.jpg);
+}
+
+.Banner-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+    top: 0;
+    left: 0;
+    /* z-index: -1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-overlay h1 {
+    font-size: 49px;
+    font-weight: 800;
+    font-family: 'Proza Libre', sans-serif;
+    color: #ffff;
+}
+
+.image-overlay p {
+    font-size: 18px;
+    font-family: 'Proza Libre', sans-serif;
+    padding-top: 15px;
+    color: #DDDDDD;
+}
+
+.image-overlay button {
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-family: 'Proza Libre', sans-serif;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    padding-top: 15px;
+}
+
+#mid-section {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background-color: beige;
+}
+
+#box-box {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    background-color: beige;
+}
+
+.box-box-container {
+    width: 100%;
+    height: 100%;
+}
+
+.box-box-container-text h2 {
+    font-size: 35px;
+    font-family: 'Proza Libre', sans-serif;
+    color: black;
+    font-weight: 800;
+}
+
+.box-box-container-text p {
+    font-size: 15px;
+    font-family: 'Proza Libre', sans-serif;
+    color: #666666;
+}
+
+.box-box-container-text h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Proza Libre', sans-serif;
+    color: #4E4C4C;
+}
+
+.box-box-container-text h4 {
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Proza Libre', sans-serif;
+    color: #4E4C4C;
+
+}
+
+.box-box-container-text {
+    margin-top: 5%;
+}
+
+#meanu-card {
+    width: 100%;
+    height: auto;
+    background-color: beige;
+    margin-top: 70px;
+   
+}
+
+.meanu-card-container {
+    width: 80%;
+   
+
+}
+
+.meanu-card-container-box {
+    gap: 30px;
+ 
+}
+
+.meanu-card-container-box i {
+    color: goldenrod;
+    font-size: 50px;
+}
+
+#bg-image {
+    width: 100%;
+    height: 80vh;
+    background-color: beige;
+}
+
+.container-bg-image {
+    width: 100%;
+    height: 80vh;
+    background-image: url(..//image/b2.jpg);
+    background-size: 100%;
+    object-fit: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.join-Golf-Club-content {
+    border: 2px solid white;
+    width: 500px;
+    height: 40vh;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+}
+
+.join-Golf-Club h4 {
+    color: #7BA010;
+    font-size: 20px;
+    font-family: 'Proza Libre', sans-serif;
+    padding-left: 100px;
+    text-align: center;
+
+
+}
+
+.join-Golf-Club h3 {
+    padding-top: 20px;
+    font-size: 27px;
+    font-weight: 800;
+    color: #212529;
+    font-family: 'Proza Libre', sans-serif;
+    text-align: center;
+  
+}
+
+.join-Golf-Club button {
+    margin-top: 30px;
+    padding: 15px 40px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: #F5B000;
+    background-color: white;
+    border-color: #F5B000;
+    font-family: 'Proza Libre', sans-serif;
+
+}
+
+#text-content {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+   
+}
+
+.text-container {
+    width: 100%;
+    height: 40vh;
+ 
+    align-items: center;
+   text-align: center;
+   align-content: center;
+
+}
+
+.Meet-Our-Players h3 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Proza Libre', sans-serif;
+    color: #212529;
+}
+
+.Meet-Our-Players p {
+    font-size: 15px;
+    padding-top: 15px;
+    font-family: 'Proza Libre', sans-serif;
+    color: #666666;
+}
+
+.text-container-2 {
+    width: 80%;
+
+}
+
+.Jack-Willson img {
+    width: 100px;
+    height: 100px;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+#footer {
+    width: 100%;
+    height: 60vh;
+    background-color: #212529;
+    margin-top: 40px;
+}
+
+.container2 {
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+    gap: 50px;
+    padding: 100px;
+
+}
+
+.HOURS-OF-OPERATION h5 {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.HOURS-OF-OPERATION h6 {
+    padding-top: 25px;
+    font-size: 18px;
+    font-family: 'Proza Libre', sans-serif;
+    color: #9B9FA2;
+
+}
+
+.QUICK-LINKS h5 {
+    font-size: 20px;
+    font-family: 'Proza Libre', sans-serif;
+    color: #FFFFFF;
+}
+
+.QUICK-LINKS h6 {
+    padding-top: 25px;
+    font-size: 18px;
+    font-family: 'Proza Libre', sans-serif;
+    color: #9B9FA2;
+
+}
+
+.QUICK-LINKS span {
+    padding-left: 100px;
+}
+
+.CONTACT h5 {
+    font-size: 20px;
+    font-family: 'Proza Libre', sans-serif;
+    color: #FFFFFF;
+}
+
+.CONTACT h6 {
+    padding-top: 25px;
+    font-size: 18px;
+    font-family: 'Proza Libre', sans-serif;
+    color: #9B9FA2;
+}
+
+.OUR-NEWSLETTER h6 {
+    font-size: 20px;
+    font-family: 'Proza Libre', sans-serif;
+    color: #FFFFFF;
+
+}
+
+@media(max-width:420px) {
+    .image-overlay h1 {
+        font-size: 36px;
+    }
+
+    .image-overlay p {
+        font-size: 11px;
+    }
+    .mid-section-container{
+        text-align: center;
+    }
+    .image-overlay button {
+        padding: 8px 20px;
+        font-size: 14px;
+        margin-top: 80px;
+    }
+
+    .content-image img {
+        width: 150%;
+        align-self: center;
+       
+    }
+    
+
+    .box-box-container-text {
+        text-align: center;
+        font-size: 37px;
+        padding-top: 50px;
+    }
+
+    .box-box-container-text p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .meanu-card-container-box i {
+        font-size: 80px;
+    }
+    .meanu-card-container-box h5{
+        padding-top: 15px;
+    }
+    .meanu-card-container-box p{
+        padding-top: 20px;
+    }
+
+    .box-box-container-text h3 {
+        padding-top: 30px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .box-box-container-text p {
+        font-size: 15px;
+    }
+
+    .box-box-container-text h4 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    #meanu-card {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .join-Golf-Club h4 {
+       margin-left: -20%;
+    }
+    .join-Golf-Club button{
+        margin-left: 10px;
+    }
+    #bg-image{
+        height: 60vh;
+    }
+
+    .Meet-Our-Players h3{
+        text-align: start;
+        font-size: 30px;
+        padding-left: 70px;
+    }
+    .Meet-Our-Players {
+        margin-top: -10%;
+    }
+    .container{
+        text-align: center;
+    }
+    .Jack-Willson p{
+        padding-top: 20px;
+    }
+    .Jack-Willson img{
+        padding-top: 20px;
+    }
+    .container img{
+        width: 100px;
+    }
+    .container h5{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #footer{
+        height: auto;
+    }
+    .OUR-NEWSLETTER {
+       padding-top: 15px;
+    }
+    .OUR-NEWSLETTER button{
+        margin-top: 15px;
+    }
+    
+   
+}
